@@ -3,9 +3,9 @@ import math
 from PIL import Image, ImageDraw
 from tqdm import tqdm
 
-import meshes
-import settings
-import intersection
+import rendeer.meshes as meshes
+import rendeer.settings as settings
+import rendeer.intersection as intersection
 
 # argparse
 
